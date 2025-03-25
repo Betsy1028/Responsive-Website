@@ -150,17 +150,19 @@ ul li a:hover {
   cursor: pointer;
 }
 
-.hire__me {
+.hire__me:hover {
   background-color: var(--primary-color);
   color: #ffffff;
 }
 
 .hire__me:hover {
   background-color: var(--primary-color-dark);
+  color:#ffffff
 }
 
-.portfolio {
+.portfolio:hover {
   color: var(--primary-color);
+color:#ffffff
 }
 
 .portfolio:hover {
@@ -232,7 +234,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #9333ea;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -240,7 +242,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #9333ea;
 }
 
 /* Style the container/contact section */
