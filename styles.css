@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 :root {
- --primary-color: #a855f7;
+ --primary-color:#a855f7;
  --primary-color-dark: #9333ea;
  --secondary-color: #ca8a04;
  --text-dark: #1f2937;
@@ -228,3 +228,12 @@ color:#ffffff
   text-align: center;
   padding: 20px;
 }
+
+
+<body>
+
+<h2>Betsy's .portfolio /h2>
+<img src="pic_trulli.jpg" alt="Trulli" width="500" height="333">
+
+</body>
+</html>
