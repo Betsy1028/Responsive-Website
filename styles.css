@@ -150,25 +150,7 @@ ul li a:hover {
  cursor: pointer;
 }
 
-.hire__me {
- background-color: var(--primary-color);
- color: #ffffff;
-}
 
-.hire__me {
- background-color: var(--primary-color-dark);
- color:#ffffff
-}
-
-.portfolio {
- color: var(--primary-color);
-color:#ffffff
-}
-
-.portfolio {
- background-color: var(--primary-color-dark);
- color: #ffffff;
-}
 
 .image {
  display: grid;
@@ -229,11 +211,3 @@ color:#ffffff
   padding: 20px;
 }
 
-
-<body>
-
-<h2>Betsy's .portfolio /h2>
-<img src="pic_trulli.jpg" alt="Trulli" width="500" height="333">
-
-</body>
-</html>
