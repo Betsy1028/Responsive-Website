@@ -20,9 +20,9 @@ body {
 .header {
   padding: 80px;
   text-align: center;
-  background: whitesmoke;
+  background: #faf5ff;
   border-color: #6b7280;
-  color: black;
+  color: #a855f7;
 }
 .header h1 {
   font-size: 40px;
@@ -65,9 +65,23 @@ body {
 }
 image {
   background-color: #aaa;
-  width: 100%;
+  width: 20%;
   padding: 20px;
-  height: 60px;
+  height: 30px;
+  border-radius: 8px;
 }
+.image {
+    display: grid;
+    place-items: right;
+   }
+.image {
+    display: grid;
+    place-items: left;
+}
+.image {
+    display: grid;
+place-items:center;}
 
-
+.action__btns {
+    margin: auto;
+    }
