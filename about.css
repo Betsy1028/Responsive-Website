@@ -82,6 +82,11 @@ image {
     display: grid;
 place-items:center;}
 
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
 .action__btns {
     margin: auto;
     }
