@@ -234,6 +234,12 @@ ul li a:hover {
   padding: 70px;
 }
 
+#borderimg {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(computerscience.jpg) 30 round;
+}
+
 .footer {
   position: fixed;
   left: 0;
