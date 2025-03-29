@@ -158,7 +158,7 @@ ul li a:hover {
 }
 
 .image img {
- width: min(25rem, 90%);
+ width: min(25rem, 50%);
  border-radius: 50%;
 }
 
@@ -208,6 +208,25 @@ ul li a:hover {
 * {
  box-sizing: border-box;
 }
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column  {
+    width: 50%;
+  }
+}
 
 .header {
   background-color: #ca8a04;
@@ -215,3 +234,12 @@ ul li a:hover {
   padding: 70px;
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
