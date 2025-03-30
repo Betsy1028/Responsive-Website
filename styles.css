@@ -237,7 +237,7 @@ ul li a:hover {
 #borderimg {
   border: 10px solid transparent;
   padding: 15px;
-
+  border-image: url(computerscience.jpg) 30 round;
 }
 
 .footer {
@@ -246,7 +246,7 @@ ul li a:hover {
   bottom: 0;
   width: 100%;
   background-color: white;
-  color:var(--primary-color);
+  color:var(#1f2937);
   text-align: left
   
 }
@@ -277,7 +277,7 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-color: white;
+color: var(--primary-color-dark);
 }
 .my-paragraph {
   font-size: 18px;
