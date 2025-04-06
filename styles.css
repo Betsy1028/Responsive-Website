@@ -110,7 +110,7 @@ ul li a:hover {
 
 .subtitle {
  letter-spacing: 2px;
- color: var(--primary-color);
+ color: var(#6b7280);
  font-weight: 600;
  margin-bottom: 0.5rem;
 }
@@ -129,7 +129,7 @@ ul li a:hover {
 
 .description {
  line-height: 1.5rem;
- color: var(--primary-color-dark);
+ color: var(#6b7280);
  margin-bottom: 2rem;
 }
 
@@ -230,13 +230,13 @@ ul li a:hover {
 
 .footer {
   position: fixed;
+  font-family:"Poppins", sans-serif;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color:#faf5ff;
-  color:var(#1f2937);
+  color:var(#6b7280);
   text-align: left
-  
 }
 
 body, html {
