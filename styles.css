@@ -318,3 +318,24 @@ img {
 img {
   src: var(--secondary-color);
 }
+@media (max-width:800px) {
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+
+
+@media (max-width:500px) {
+
+.main {
+  width: 100%;
+  padding: 0;
+}  
+.right {
+  width: 100%;
+  }
+}
