@@ -144,7 +144,7 @@ ul li a:hover {
  letter-spacing: 2px;
  padding: 1rem 2rem;
  outline: none;
- border: 2px solid var(--primary-color);
+ border: 2px solid var(#6b7280);
  border-radius: 10px;
  transition: 0.3s;
  cursor: pointer;
@@ -336,4 +336,7 @@ input[type=submit] {
 }
 img {
   border-radius: 50%;
+}
+img {
+  src: var(--secondary-color);
 }
