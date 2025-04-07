@@ -224,6 +224,44 @@ ul li a:hover {
   font-style: #1f2937;
 }
 
+h1 {
+  line-height: 65px;
+  height: 65px;
+  padding-right: 10px;
+  margin: 0;
+}
+h2
+h2 {
+  color: hsl(#9333ea);
+  font-family:  "poppins", sans-serif;
+}
+
+h3 { color: #faf5ff;}
+
+a {
+  color: hsl(#ca8a04);
+}
+a:visited {
+  color: hsl(#9333ea);
+}
+a:hover {
+  background-color: hsl(#faf5ff);
+}
+
+a.hmbgr {
+  background-color: hsl(#ca8a04);
+  color: hsl(#faf5ff);
+  padding: .95em;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: none;
+}
+a.hmbgr:hover {
+  background-color: hsl(#faf5ff); 
+  color: hsl(#ca8a04);
+}
+
 #borderimg {
   border: 10px solid transparent;
   padding: 15px;
@@ -246,7 +284,7 @@ body, html {
 }
 
 .my-paragraph {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(#1f2937);
  font-size: large;
  }
