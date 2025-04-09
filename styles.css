@@ -213,8 +213,8 @@ ul li a:hover {
 
 .header {
   background-color:var(--primary-color);
-  text-align: center;
-  padding: 70px;
+  text-align: left;
+  padding: 80px;
   font-family: "poppins", sans-serif;
   font-style:var(--text-dark)
 }
