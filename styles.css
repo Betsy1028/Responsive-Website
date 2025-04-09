@@ -185,10 +185,6 @@ ul li a:hover {
  grid-template-columns: repeat(1, 1fr);
  }
 
- .image {
- grid-area: 1/1/2/2;
- }
-
  .action__btns {
  margin: auto;
  }
@@ -227,7 +223,7 @@ ul li a:hover {
 h2 {
   color: hsl(#9333ea);
   font-family:  "poppins", sans-serif;
-  font-size: medium;
+  font-size: x-large;
   text-align: center;
   padding: 20px;
 }
@@ -236,7 +232,7 @@ h3 {
 color: #9333ea;
 font-family: "poppins", sans-serif;
 font-size: medium;
-text-align: center;
+text-align: left;
 padding: 20px;
 }
 
@@ -306,9 +302,4 @@ body, html {
  font-size: large;
  }
 
-img {
-  border-radius: 50%;
-}
-img {
-  src: var(--secondary-color);
-}
+
