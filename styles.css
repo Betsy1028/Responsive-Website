@@ -274,9 +274,9 @@ a.hmbgr:hover {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color:#faf5ff;
-  color:var(#6b7280);
-  text-align: left
+  background-color:var(--primary-color)
+
+
 }
 #addy {
   text-align: left;
