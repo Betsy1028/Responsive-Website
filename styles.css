@@ -161,7 +161,7 @@ ul li a:hover {
  height: calc(100vh - 85px);
  left: -100%;
  top: 85px;
- background-color: var(--extra-light);
+ background-color: var(#faf5ff);
  flex-direction: column;
  justify-content: center;
  gap: 3rem;
@@ -223,9 +223,10 @@ ul li a:hover {
 
 
 h2 {
-  color: hsl(#faf5ff);
+  background-color: hsl(#faf5ff);
   font-family:  "poppins", sans-serif;
   font-size: x-large;
+  font-style: var(--text-dark) ;
   text-align: left;
   margin: auto;
   padding: 30px;
@@ -233,9 +234,9 @@ h2 {
 }
 
 h3 { 
-color: hsl(#faf5ff);
+background-color: hsl(#faf5ff);
 font-family: "poppins", sans-serif;
-font-size: medium;
+font-style:var(--text-dark);
 text-align: left;
 margin: auto;
 padding: 30px;
