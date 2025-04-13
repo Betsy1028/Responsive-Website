@@ -221,7 +221,7 @@ ul li a:hover {
 
 
 h2 {
-  color: hsl(#9333ea);
+  color: hsl(#faf5ff);
   font-family:  "poppins", sans-serif;
   font-size: x-large;
   text-align: left;
@@ -230,7 +230,7 @@ h2 {
 }
 
 h3 { 
-color: #9333ea;
+color: hsl(#faf5ff);
 font-family: "poppins", sans-serif;
 font-size: medium;
 text-align: left;
@@ -294,9 +294,7 @@ a.hmbgr:hover {
   padding: 2em;
 }
  
-body {
-  background-image: url("computerscience.jpg");
-}
+
 
 .my-paragraph {
   font-family: "Poppins", sans-serif;
