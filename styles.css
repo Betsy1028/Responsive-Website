@@ -129,7 +129,7 @@ ul li a:hover {
 
 .description {
  line-height: 1.5rem;
- color: var(#6b7280);
+ color: var(#faf5ff);
  margin-bottom: 2rem;
 }
 
@@ -214,7 +214,7 @@ ul li a:hover {
 .header {
   background-color:var(--primary-color);
   text-align: left;
-  padding: 80px;
+  padding: 20px;
   font-family: "poppins", sans-serif;
   font-style:var(--text-dark)
 }
@@ -303,7 +303,7 @@ a.hmbgr:hover {
 }
 
 input[type=text], select {
-  width: 100%;
+  width: 50%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -313,7 +313,7 @@ input[type=text], select {
 }
 
 input[type=submit] {
-  width: 100%;
+  width: 50%;
   background-color: #ca8a04;
   color: white;
   padding: 14px 20px;
