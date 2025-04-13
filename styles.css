@@ -225,7 +225,8 @@ h2 {
   font-family:  "poppins", sans-serif;
   font-size: x-large;
   text-align: left;
-  padding: none;
+  margin: auto;
+  padding: 30px;
 }
 
 h3 { 
@@ -233,7 +234,8 @@ color: #9333ea;
 font-family: "poppins", sans-serif;
 font-size: medium;
 text-align: left;
-padding: none;
+margin: auto;
+padding: 30px;
 }
 
 a:visited {
