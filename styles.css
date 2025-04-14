@@ -244,19 +244,6 @@ a:hover {
   background-color: hsl(#faf5ff);
 }
 
-a.hmbgr {
-  background-color: hsl(#ca8a04);
-  color: hsl(#faf5ff);
-  padding: .95em;
-  position: absolute;
-  right: 0;
-  top: 0;
-  display: none;
-}
-a.hmbgr:hover {
-  background-color: hsl(#faf5ff); 
-  color: hsl(#ca8a04);
-}
 
 @media only screen and (max-width: 580px) {
   .mob-video { width: 420px; height: 236px; }
@@ -321,5 +308,56 @@ input[type=submit]:hover {
   background-color: #ca8a04;
 }
 
+.blockquote {
+  font-style: var(--primary-color-dark);
+  font-family: "Poppins", sans-serif;
+  margin: 8px 0;
+  padding: 10px 20px
 
+}
 
+img {
+  width: 100%;
+  height: auto;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #faf5ff;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #faf5ff;
+  color: var(--secondary-color);
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #faf5ff;
+  color: var(--secondary-color);
+}
