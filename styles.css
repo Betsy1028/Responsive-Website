@@ -323,7 +323,7 @@ img {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #faf5ff;
   position: relative;
 }
 
@@ -353,11 +353,11 @@ img {
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
   background-color: #faf5ff;
-  color: var(--secondary-color);
+  color: var( black);
 }
 
 /* Style the active link (or home/logo) */
 .active {
   background-color: #faf5ff;
-  color: var(--secondary-color);
+  color: var(--primary-color-dark);
 }
