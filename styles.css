@@ -11,8 +11,8 @@
 }
 
 * {
- padding: 0;
- margin: 0;
+ padding: 16px;
+ margin: 16px;
  box-sizing: border-box;
 }
 
@@ -29,7 +29,7 @@ nav {
  position: fixed;
  top: 0;
  left: 0;
- background-color: #ffffff;
+ background-color: var(--primary-color);
  z-index: 99;
 }
 
