@@ -316,3 +316,9 @@ input[type=submit] {
     background-color: var(--primary-color);
     color: var(--text-dark);
   }
+  #copy {
+    text-align: center;
+    float: center;
+    margin: 0; 
+    padding: 2em;
+  }
