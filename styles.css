@@ -235,17 +235,6 @@ ul li a:hover {
 }
 
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: var(--primary-color);
-  color:var(--text-dark);
-  text-align: left;
-
-}
-
 body, html {
   height: 100%;
 }
@@ -317,3 +306,13 @@ input[type=submit] {
     width: 100%;
     margin-top: 0;
   }}
+
+  .footer {
+    display: block;
+  }
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: var(--primary-color);
+    color: var(--text-dark);
+  }
