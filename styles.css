@@ -247,7 +247,9 @@ ul li a:hover {
   width: 100%;
   background-color: var(--primary-color);
   color:var(#faf5ff);
-  text-align: left
+  text-align: left;
+  padding: 3px;
+  margin: 3px;
   
 }
 
