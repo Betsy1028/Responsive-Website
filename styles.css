@@ -314,7 +314,7 @@ input[type=submit] {
     text-align: center;
     padding: 3px;
     background-color: var(--primary-color);
-    color: var(--text-light);
+    color: #faf5ff);
   }
   #copy {
     text-align: center;
