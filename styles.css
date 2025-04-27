@@ -237,7 +237,7 @@ ul li a:hover {
 #borderimg {
   border: 10px solid transparent;
   padding: 15px;
-  border-image: url(computerscience.jpg) 30 round;
+  border-image: url(computerscience.jpg);
 }
 
 .footer {
@@ -245,8 +245,8 @@ ul li a:hover {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: white;
-  color:var(#1f2937);
+  background-color: var(--primary-color);
+  color:var(#faf5ff);
   text-align: left
   
 }
