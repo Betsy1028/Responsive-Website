@@ -241,14 +241,14 @@ h2 {
   font-family:  "poppins", sans-serif;
   font-size: x-large;
   font-style: var(--text-dark) ;
-  text-align: left;
+  text-align: center;
 }
 
 h3 { 
 background-color: hsl(#faf5ff);
 font-family: "poppins", sans-serif;
 font-style:var(--text-dark);
-text-align: left;
+text-align: center;
 }
 
 a:visited {
@@ -300,17 +300,10 @@ input[type=submit]:hover {
   background-color: #ca8a04;
 }
 
-.blockquote {
-  font-style: var(--primary-color-dark);
-  font-family: "Poppins", sans-serif;
-  margin: 8px 0;
-  padding: 10px 20px
-
-}
 
 div {
   margin: 70px;
-  border: 1px solid gray;
+  border: 1px solid #faf5ff;
 }
 
 footer { 
