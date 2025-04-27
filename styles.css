@@ -49,7 +49,7 @@ nav .logo a {
  transition: 0.3s;
 }
 nav .logo a:hover {
- color: var(--primary-color-dark);
+ color: var(--primary-color);
 }
 
 nav .checkbox {
