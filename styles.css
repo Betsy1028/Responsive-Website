@@ -322,3 +322,13 @@ input[type=submit] {
     margin: 0; 
     padding: 2em;
   }
+  div.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  }
