@@ -1,7 +1,7 @@
 School Portfolio Website
 Overview
 
-This project is a personal portfolio website created as part of a school assignment. The website is designed to showcase projects, skills, and accomplishments in an organized, user-friendly format. The goal was to practice responsive web design, HTML, CSS, and basic frontend development principles.
+This project is a portfolio website created as part of a school assignment. The website is designed to showcase projects, skills, and accomplishments in an organized, user-friendly format. The goal was to practice responsive web design, HTML, CSS, and basic frontend development principles.
 
 The site serves as a professional portfolio, highlighting technical and creative abilities while providing a foundation for more advanced web development projects.
 
