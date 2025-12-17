@@ -51,4 +51,4 @@ Apply responsive design principles using CSS
 
 Organize content for readability and accessibility
 
-Present academic and personal projects in a professional format
+Present academic projects in a professional format
